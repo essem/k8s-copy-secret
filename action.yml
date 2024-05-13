@@ -1,8 +1,8 @@
 name: k8s-copy-secret
 description: Copy secret to another namespace
 runs:
-  using: "node12"
-  main: "index.js"
+  using: "node20"
+  main: "dist/index.js"
 inputs:
   from-namespace:
     description: "Source namespace"
